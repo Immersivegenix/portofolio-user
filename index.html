@@ -1,37 +1,44 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michiel Erasmus Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Michiel Erasmus</h1>
-    <h2>Web Developer & Programmer</h2>
-
-    <h3>About Me</h3>
-    <p>
-        Hi! I'm Michiel Erasmus, a passionate web developer building responsive and user-friendly websites.
-        I love learning new technologies and solving interesting problems.
-    </p>
-
-    <h3>Projects</h3>
-    <ul>
-        <li>
-            <strong>Project One:</strong> A simple static website for showcasing a portfolio.
-            <br>
-            <a href="#">View Project</a>
-        </li>
-        <li>
-            <strong>Project Two:</strong> An interactive JavaScript game built from scratch.
-            <br>
-            <a href="#">View Project</a>
-        </li>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">About</a></li>
     </ul>
-
-    <h3>Contact</h3>
-    <p>
-        Want to get in touch? <a href="mailto:your.email@example.com">Email me!</a>
-    </p>
+  </nav>
+  <section class="hero-flex">
+    <div class="hero-info">
+      <span>Welcome</span>
+      <h1>Hello, I'm <span class="highlight">Your Name</span></h1>
+      <div class="subtitle">Frontend Developer</div>
+      <p>This is my portfolio site.</p>
+      <div class="hero-social">
+        <a href="#"><img src="icon1.png" alt="icon"></a>
+        <a href="#"><img src="icon2.png" alt="icon"></a>
+      </div>
+    </div>
+    <img class="hero-photo" src="your-photo.jpg" alt="Your Photo">
+  </section>
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Write something about yourself here.</p>
+  </section>
+  <section class="projects">
+    <ul class="project-list">
+      <li>Project 1</li>
+      <li>Project 2</li>
+    </ul>
+  </section>
+  <footer>
+    &copy; 2025 Your Name
+  </footer>
 </body>
 </html>
